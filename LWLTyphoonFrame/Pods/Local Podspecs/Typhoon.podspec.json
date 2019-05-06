@@ -1,0 +1,62 @@
+{
+  "name": "Typhoon",
+  "version": "0.0.1",
+  "summary": "A short Typhoon of Typhoon.",
+  "description": "Typhoon",
+  "homepage": "http://Typhoon/Typhoon",
+  "license": "MIT",
+  "authors": {
+    "804832431": "804832431@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://Typhoon/Typhoon.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Typhoon/**/*.{h,m}",
+  "ios": {
+    "exclude_files": [
+      "osx",
+      "Typhoon/Factory/Internal/NSInvocation+TCFInstanceBuilder.{h,m}"
+    ]
+  },
+  "osx": {
+    "exclude_files": [
+      "ios",
+      "Typhoon/Factory/Internal/NSInvocation+TCFInstanceBuilder.{h,m}"
+    ]
+  },
+  "tvos": {
+    "exclude_files": [
+      "osx",
+      "Typhoon/Factory/Internal/NSInvocation+TCFInstanceBuilder.{h,m}"
+    ]
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "requires_arc": false,
+      "source_files": "Typhoon/Factory/Internal/NSInvocation+TCFInstanceBuilder.{h,m}",
+      "dependencies": {
+        "Typhoon/IntrospectionUtils": [
+
+        ]
+      }
+    },
+    {
+      "name": "IntrospectionUtils",
+      "source_files": [
+        "Typhoon/Utils/TyphoonIntrospectionUtils.{h,m}",
+        "Typhoon/TypeConversion/TyphoonTypeDescriptor.{h,m}",
+        "Typhoon/Utils/TyphoonUtils.h"
+      ]
+    },
+    {
+      "name": "DeallocNotifier",
+      "source_files": "Typhoon/Utils/NSObject+DeallocNotification.{h,m}"
+    }
+  ]
+}

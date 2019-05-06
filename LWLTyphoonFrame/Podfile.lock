@@ -1,0 +1,22 @@
+PODS:
+  - JLRoutes (2.0.2)
+  - Typhoon (4.0.2):
+    - Typhoon/DeallocNotifier (= 4.0.2)
+    - Typhoon/IntrospectionUtils (= 4.0.2)
+    - Typhoon/no-arc (= 4.0.2)
+  - Typhoon/DeallocNotifier (4.0.2)
+  - Typhoon/IntrospectionUtils (4.0.2)
+  - Typhoon/no-arc (4.0.2):
+    - Typhoon/IntrospectionUtils
+
+DEPENDENCIES:
+  - JLRoutes
+  - Typhoon
+
+SPEC CHECKSUMS:
+  JLRoutes: eb078e0c1dbc7dfe321a014b4a2b9ef739d5fa8e
+  Typhoon: 05db9d33d798b90c202bf3f754275c03efe93297
+
+PODFILE CHECKSUM: 8d41f7cece15e2bbcfd3ad540493870b912d994e
+
+COCOAPODS: 1.3.1

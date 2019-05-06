@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185B54EA2270587900FCEA3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B54E92270587900FCEA3A /* AppDelegate.m */; };
+		185B54ED2270587900FCEA3A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B54EC2270587900FCEA3A /* FirstViewController.m */; };
+		185B54F02270587900FCEA3A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B54EF2270587900FCEA3A /* SecondViewController.m */; };
+		185B54F32270587900FCEA3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B54F12270587900FCEA3A /* Main.storyboard */; };
+		185B54F52270587B00FCEA3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185B54F42270587B00FCEA3A /* Assets.xcassets */; };
+		185B54F82270587B00FCEA3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185B54F62270587B00FCEA3A /* LaunchScreen.storyboard */; };
+		185B54FB2270587B00FCEA3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B54FA2270587B00FCEA3A /* main.m */; };
+		185B56982271538000FCEA3A /* LWLAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B56972271538000FCEA3A /* LWLAssembly.m */; };
+		185B56A422715EF900FCEA3A /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B56A322715EF900FCEA3A /* PersonViewController.m */; };
+		C48E14753F29ABEB08B43791 /* libPods-LWLTyphoonFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B486C10D6EAD648648BBBF48 /* libPods-LWLTyphoonFrame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CA1BB11693BBAA9C966EB5 /* Pods-LWLTyphoonFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWLTyphoonFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWLTyphoonFrame/Pods-LWLTyphoonFrame.debug.xcconfig"; sourceTree = "<group>"; };
+		185B54E52270587900FCEA3A /* LWLTyphoonFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWLTyphoonFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185B54E82270587900FCEA3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185B54E92270587900FCEA3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185B54EB2270587900FCEA3A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		185B54EC2270587900FCEA3A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		185B54EE2270587900FCEA3A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		185B54EF2270587900FCEA3A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		185B54F22270587900FCEA3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185B54F42270587B00FCEA3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185B54F72270587B00FCEA3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185B54F92270587B00FCEA3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185B54FA2270587B00FCEA3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185B56962271538000FCEA3A /* LWLAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWLAssembly.h; sourceTree = "<group>"; };
+		185B56972271538000FCEA3A /* LWLAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWLAssembly.m; sourceTree = "<group>"; };
+		185B56A12271592200FCEA3A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		185B56A222715EF900FCEA3A /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		185B56A322715EF900FCEA3A /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		185B56A6227164D100FCEA3A /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		85B843AA499F30832EC427DF /* Pods-LWLTyphoonFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWLTyphoonFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWLTyphoonFrame/Pods-LWLTyphoonFrame.release.xcconfig"; sourceTree = "<group>"; };
+		B486C10D6EAD648648BBBF48 /* libPods-LWLTyphoonFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWLTyphoonFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185B54E22270587900FCEA3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48E14753F29ABEB08B43791 /* libPods-LWLTyphoonFrame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185B54DC2270587900FCEA3A = {
+			isa = PBXGroup;
+			children = (
+				185B54E72270587900FCEA3A /* LWLTyphoonFrame */,
+				185B54E62270587900FCEA3A /* Products */,
+				88A6DB32F6590AA9EB3D270D /* Pods */,
+				C2E086287616DF61F16763EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		185B54E62270587900FCEA3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185B54E52270587900FCEA3A /* LWLTyphoonFrame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185B54E72270587900FCEA3A /* LWLTyphoonFrame */ = {
+			isa = PBXGroup;
+			children = (
+				185B5695227152F900FCEA3A /* Assembly */,
+				185B56992271538D00FCEA3A /* Person */,
+				185B54E82270587900FCEA3A /* AppDelegate.h */,
+				185B54E92270587900FCEA3A /* AppDelegate.m */,
+				185B54EB2270587900FCEA3A /* FirstViewController.h */,
+				185B54EC2270587900FCEA3A /* FirstViewController.m */,
+				185B54EE2270587900FCEA3A /* SecondViewController.h */,
+				185B54EF2270587900FCEA3A /* SecondViewController.m */,
+				185B54F12270587900FCEA3A /* Main.storyboard */,
+				185B54F42270587B00FCEA3A /* Assets.xcassets */,
+				185B54F62270587B00FCEA3A /* LaunchScreen.storyboard */,
+				185B54F92270587B00FCEA3A /* Info.plist */,
+				185B54FA2270587B00FCEA3A /* main.m */,
+				185B56A12271592200FCEA3A /* PrefixHeader.pch */,
+			);
+			path = LWLTyphoonFrame;
+			sourceTree = "<group>";
+		};
+		185B5695227152F900FCEA3A /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				185B56A6227164D100FCEA3A /* PersonProtocol.h */,
+				185B56962271538000FCEA3A /* LWLAssembly.h */,
+				185B56972271538000FCEA3A /* LWLAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		185B56992271538D00FCEA3A /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				185B56A82271667400FCEA3A /* ViewController */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		185B56A82271667400FCEA3A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				185B56A222715EF900FCEA3A /* PersonViewController.h */,
+				185B56A322715EF900FCEA3A /* PersonViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		88A6DB32F6590AA9EB3D270D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03CA1BB11693BBAA9C966EB5 /* Pods-LWLTyphoonFrame.debug.xcconfig */,
+				85B843AA499F30832EC427DF /* Pods-LWLTyphoonFrame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2E086287616DF61F16763EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B486C10D6EAD648648BBBF48 /* libPods-LWLTyphoonFrame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185B54E42270587900FCEA3A /* LWLTyphoonFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185B54FE2270587B00FCEA3A /* Build configuration list for PBXNativeTarget "LWLTyphoonFrame" */;
+			buildPhases = (
+				98A15B74E6D8452C80E2706A /* [CP] Check Pods Manifest.lock */,
+				185B54E12270587900FCEA3A /* Sources */,
+				185B54E22270587900FCEA3A /* Frameworks */,
+				185B54E32270587900FCEA3A /* Resources */,
+				C378D1DED6993E8A2D1AA56C /* [CP] Embed Pods Frameworks */,
+				9B7768DDD965BEF2AEFAA383 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWLTyphoonFrame;
+			productName = LWLTyphoonFrame;
+			productReference = 185B54E52270587900FCEA3A /* LWLTyphoonFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185B54DD2270587900FCEA3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lwl;
+				TargetAttributes = {
+					185B54E42270587900FCEA3A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 185B54E02270587900FCEA3A /* Build configuration list for PBXProject "LWLTyphoonFrame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185B54DC2270587900FCEA3A;
+			productRefGroup = 185B54E62270587900FCEA3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185B54E42270587900FCEA3A /* LWLTyphoonFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185B54E32270587900FCEA3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B54F82270587B00FCEA3A /* LaunchScreen.storyboard in Resources */,
+				185B54F52270587B00FCEA3A /* Assets.xcassets in Resources */,
+				185B54F32270587900FCEA3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98A15B74E6D8452C80E2706A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LWLTyphoonFrame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7768DDD965BEF2AEFAA383 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWLTyphoonFrame/Pods-LWLTyphoonFrame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C378D1DED6993E8A2D1AA56C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWLTyphoonFrame/Pods-LWLTyphoonFrame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185B54E12270587900FCEA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185B54F02270587900FCEA3A /* SecondViewController.m in Sources */,
+				185B54EA2270587900FCEA3A /* AppDelegate.m in Sources */,
+				185B54FB2270587B00FCEA3A /* main.m in Sources */,
+				185B56982271538000FCEA3A /* LWLAssembly.m in Sources */,
+				185B54ED2270587900FCEA3A /* FirstViewController.m in Sources */,
+				185B56A422715EF900FCEA3A /* PersonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		185B54F12270587900FCEA3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B54F22270587900FCEA3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185B54F62270587B00FCEA3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185B54F72270587B00FCEA3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185B54FC2270587B00FCEA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185B54FD2270587B00FCEA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185B54FF2270587B00FCEA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CA1BB11693BBAA9C966EB5 /* Pods-LWLTyphoonFrame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BDSEFAC72;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LWLTyphoonFrame/PrefixHeader.pch;
+				INFOPLIST_FILE = LWLTyphoonFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lwl.typhoonframe.LWLTyphoonFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		185B55002270587B00FCEA3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B843AA499F30832EC427DF /* Pods-LWLTyphoonFrame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BDSEFAC72;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LWLTyphoonFrame/PrefixHeader.pch;
+				INFOPLIST_FILE = LWLTyphoonFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lwl.typhoonframe.LWLTyphoonFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185B54E02270587900FCEA3A /* Build configuration list for PBXProject "LWLTyphoonFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B54FC2270587B00FCEA3A /* Debug */,
+				185B54FD2270587B00FCEA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185B54FE2270587B00FCEA3A /* Build configuration list for PBXNativeTarget "LWLTyphoonFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185B54FF2270587B00FCEA3A /* Debug */,
+				185B55002270587B00FCEA3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185B54DD2270587900FCEA3A /* Project object */;
+}
